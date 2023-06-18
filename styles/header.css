@@ -1,0 +1,43 @@
+
+header {
+  max-width: var(--desktop-width);
+  height: var(--height-toolbar);
+  top: 0;
+  margin: 1em auto;
+}
+
+.header__container--menubtn {
+  display: none;
+}
+
+.header__container {
+  position: relative;
+  display: flex;
+  height: var(--height-toolbar);
+  line-height: var(--height-toolbar);
+  cursor: pointer;
+}
+.header__container img{
+  width: 20px;
+}
+
+.header__container--logo {
+  flex-basis: 60px; 
+  
+  vertical-align: middle;
+}
+
+.header__container--menu {
+  flex-grow: 0;
+  text-align: center;
+}
+
+.header__container--menu a {
+  display: inline-block;
+  width: 60px;
+  margin-right: 2em;
+}
+.header__container--login {
+  flex-grow: 1;
+  text-align: right;
+}
