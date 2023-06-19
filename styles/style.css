@@ -5,6 +5,7 @@
 @import url('./main.css');
 @import url('./mail.css');
 @import url('./row.css');
+@import url('./use.css');
 
 /* ===== 변수 구간 ===== */
 :root {
@@ -27,6 +28,7 @@
   --font-size-larger: 20px;
   --font-size-text: 18px;
   --font-size-small: 16px;
+  --font-size-smaller: 15px;
 
   --height-toolbar: 72px;
 

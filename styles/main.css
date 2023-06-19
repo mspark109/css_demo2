@@ -1,11 +1,19 @@
 main {
   position: relative;
   display: flex;
+  width: 100%;
   flex-direction: column;
-  width: 72rem;
   color: var(--color-main);
   justify-content: center;
   align-items: center;
+}
+
+#hero{
+  position: relative;
+  width: 72rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin : 2em auto;
 }
 
