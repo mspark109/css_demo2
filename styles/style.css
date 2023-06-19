@@ -3,17 +3,21 @@
 
 @import url('./header.css');
 @import url('./main.css');
+@import url('./mail.css');
+@import url('./row.css');
 
 /* ===== 변수 구간 ===== */
 :root {
   --color-main: #183153;
-  --color-sub: #00A200;
+  --color-sub: #ffd43b;
   --color-dark: #2F4858;
   --color-emph: #F10F5F;
   --color-text: #281812;
   --color-lighter: #DC9C86;
   --color-light-bd: #FFE6D6;
   --color-light-bg: #FFF5ED;
+  --color-dark-navy: #001c40;
+  --color-dark-yellow: #fab005;
 
   --font-code: 'Nanum Gothic Coding', monospace;;
 
@@ -22,10 +26,10 @@
   --font-size-tag: 26px;
   --font-size-larger: 20px;
   --font-size-text: 18px;
+  --font-size-small: 16px;
 
   --height-toolbar: 72px;
 
-  --desktop-width: 72rem;
 }
 
 /* ===== 리셋 구간 ===== */

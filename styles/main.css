@@ -1,7 +1,8 @@
 main {
+  position: relative;
   display: flex;
   flex-direction: column;
-  max-width: var(--desktop-width);
+  width: 72rem;
   color: var(--color-main);
   justify-content: center;
   align-items: center;
@@ -12,7 +13,7 @@ main {
   width: 100%;
   display: flex;
   flex-direction: row-reverse;
-  margin: 3em;
+  margin-bottom: 2em;
 }
 
 .intro__content {
