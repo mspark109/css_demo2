@@ -6,6 +6,7 @@
 @import url('./mail.css');
 @import url('./row.css');
 @import url('./use.css');
+@import url('./footer.css');
 
 /* ===== 변수 구간 ===== */
 :root {
@@ -17,6 +18,7 @@
   --color-lighter: #DC9C86;
   --color-light-bd: #FFE6D6;
   --color-light-bg: #FFF5ED;
+  --color-navy: #183153;
   --color-dark-navy: #001c40;
   --color-dark-yellow: #fab005;
 
@@ -29,6 +31,7 @@
   --font-size-text: 18px;
   --font-size-small: 16px;
   --font-size-smaller: 15px;
+  --font-size-xsmall: 13px;
 
   --height-toolbar: 72px;
 
